@@ -1,0 +1,44 @@
+body
+{
+   background-color: #3e3c36;  
+}
+
+
+body h1
+{
+font-size: 80px;
+color:#f1f1f1;
+text-shadow: 3px 3px 3px #b5ac49; 
+font-family: "Pacifico", cursive; 
+
+}
+label
+{
+    color: white;
+    text-shadow: 3px 4px 2px #3ca55c; 
+
+}
+
+ .title h2{
+    font-size:50px;
+    color: #f1f1f1;
+    text-shadow: 3px 3px 3px #3ca55c; 
+    font-family: "Pacifico", cursive; 
+
+
+ }
+
+ 
+
+.main-card h2
+{
+   text-shadow: 3px 10px 3px #b5ac49; 
+   color: #f1f1f1;
+   font-size: 40px;
+}
+
+table
+{
+    background-image: linear-gradient(to left,  #3ca55c, #b5ac49, orange);
+ 
+}

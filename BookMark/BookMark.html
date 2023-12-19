@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/BookMark.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mountains+of+Christmas&family=Pacifico&family=Rubik+Scribble&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="title position-relative d-flex justify-content-center align-items-center">
+            <h1 class="  m-5 fw-bolder">BookMarker</h1>
+            <h2 class="   position-absolute mb-0 fw-bolder">BookMarker</h2>
+        </div>
+
+        <div class="main-card">
+            <h2 class=" favorite text-center fw-bolder"><i class="fa-solid fa-bookmark "></i> Bookmark your favorite
+                sites <i class="fa-solid fa-bookmark"></i></h2>
+
+
+            <div class="icons w-100 mx-auto py-3 ">
+                <label class="fw-bold mb-2" for="sitename "><i class="fa-solid fa-book-bookmark pe-2 "></i>Site
+                    Name:</label>
+                <input type="text" name="" id="sitename" class="form-control w-100 mb-5" placeholder="BookMark Name">
+            </div>
+
+            <div class="w-100 mx-auto py-3 ">
+                <label class="fw-bold mb-2" for="SiteURL"><i class="fa-solid fa-link pe-2"></i>Site URL:</label>
+                <input name="" id="SiteURL" class="w-100 form-control" placeholder="Website URL" type="url">
+            </div>
+
+            <button onclick="userInfo()" id="Submitbtn"
+                class=" btn btn-outline-success w-100 text-center mt-4">Submit</button>
+
+        </div>
+
+        <table class=" mt-4 text-center table  text-white ">
+            <thead>
+                <tr>
+                    <th class="text-capitalize ">Index </th>
+                    <th class="text-capitalize">Website Name </th>
+                    <th class="text-capitalize">Visit </th>
+                    <th class="text-capitalize">Delete </th>
+
+                </tr>
+            </thead>
+            <tbody id="tablecontent"> </tbody>
+        </table>
+
+
+
+
+    </div>
+
+    <script src="JS/BookMark.js"></script>
+    <script src="JS/bootstrap.bundle.js"></script>
+</body>
+
+</html>
